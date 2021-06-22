@@ -116,4 +116,5 @@ When you are ready to submit your project, collect the following files and compr
 Alternatively, your submission could consist of the GitHub link to your repository.
 
 ## Notes
-For fine tuning and keras augmentation there might be a problem with numpy. If it happen use the file **array_ops.py** in the extra folder and place it in python folder that could be in such place as this address **'envs\tensor2.5\Lib\site-packages\tensorflow\python\ops'**
+For fine tuning and keras augmentation there might be a problem with numpy. If it happen use the file **array_ops.py** in the extra folder and place it in python folder that could be in such place as this address **'envs\tensor2.5\Lib\site-packages\tensorflow\python\ops'**.
+If you want to use my trained models weights please unzip them from extra into saved_models folder to be loaded by the model for testing them.
