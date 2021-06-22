@@ -114,3 +114,6 @@ When you are ready to submit your project, collect the following files and compr
 - Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `dogImages/` or `lfw/` folders.  Likewise, please do not include the `bottleneck_features/` folder.__
 
 Alternatively, your submission could consist of the GitHub link to your repository.
+
+## Notes
+For fine tuning and keras augmentation there might be a problem with numpy. If it happen use the file **array_ops.py** in the extra folder and place it in python folder that could be in such place as this address **'envs\tensor2.5\Lib\site-packages\tensorflow\python\ops'**
